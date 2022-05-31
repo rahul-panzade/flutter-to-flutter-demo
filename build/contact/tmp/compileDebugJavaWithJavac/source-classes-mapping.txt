@@ -1,0 +1,4 @@
+com/AngelOne/contact/ContactPlugin.java
+ com.AngelOne.contact.ContactPlugin
+com/AngelOne/contact/BuildConfig.java
+ com.AngelOne.contact.BuildConfig

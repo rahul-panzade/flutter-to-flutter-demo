@@ -1,0 +1,804 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/main/AndroidManifest.xml:3:4-33:19
+MERGED from [:image_picker_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
+MERGED from [:image_picker_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
+MERGED from [:url_launcher_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:21:5-65:19
+MERGED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:21:5-65:19
+MERGED from [co.hyperverge:crashguardsdk:1.0.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/98145c17c82ce5ef2deea798d6d5dc67/jetified-crashguardsdk-1.0.4/AndroidManifest.xml:13:5-18:19
+MERGED from [co.hyperverge:crashguardsdk:1.0.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/98145c17c82ce5ef2deea798d6d5dc67/jetified-crashguardsdk-1.0.4/AndroidManifest.xml:13:5-18:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.material:material:1.4.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/fb9848fa141ab751e8d830b3e1a09319/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/fb9848fa141ab751e8d830b3e1a09319/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:11:5-23:19
+MERGED from [co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:11:5-23:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6e54df96d6a5bf4769e08819d94f0098/constraintlayout-2.1.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6e54df96d6a5bf4769e08819d94f0098/constraintlayout-2.1.1/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78f19b629cc560401cc662b6405c7ac4/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78f19b629cc560401cc662b6405c7ac4/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/2907e9a746e04d87bbcdff81cb1fe60c/jetified-play-services-location-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/2907e9a746e04d87bbcdff81cb1fe60c/jetified-play-services-location-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/438d5cd335ae60ecaecfb221b1f9c9b9/jetified-play-services-vision-20.1.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/438d5cd335ae60ecaecfb221b1f9c9b9/jetified-play-services-vision-20.1.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:vision-common:17.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c17d8007ca53509db8612badc6d286f9/jetified-vision-common-17.1.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c17d8007ca53509db8612badc6d286f9/jetified-vision-common-17.1.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c7c00cc33a1cb4a6739add8547e8cb49/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c7c00cc33a1cb4a6739add8547e8cb49/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/a081a318db278ea77da5bc3cc19a9a2e/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/a081a318db278ea77da5bc3cc19a9a2e/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/beb5a03b1e75163015bd4e89a8f9ab6a/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/beb5a03b1e75163015bd4e89a8f9ab6a/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/642cc9e2632e586d1058ed231591ead4/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/642cc9e2632e586d1058ed231591ead4/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c0dcb9670bd55e0a8304215ce9fef0db/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c0dcb9670bd55e0a8304215ce9fef0db/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/959d260da627832d2185f6bcb9a3e3c2/jetified-play-services-places-placereport-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/959d260da627832d2185f6bcb9a3e3c2/jetified-play-services-places-placereport-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/522ce2ff28bdc808fffce587093f819d/jetified-play-services-ads-identifier-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/522ce2ff28bdc808fffce587093f819d/jetified-play-services-ads-identifier-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/09d205bc5a71692258ea35865ef98b34/jetified-play-services-ads-lite-15.0.1/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/09d205bc5a71692258ea35865ef98b34/jetified-play-services-ads-lite-15.0.1/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ec2aa9a57c0502f8d02fa92cdaf710bb/jetified-play-services-gass-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ec2aa9a57c0502f8d02fa92cdaf710bb/jetified-play-services-gass-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/65c8b9154009d1931a3db50d7627d9e4/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/65c8b9154009d1931a3db50d7627d9e4/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.6.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/884708a9396f81808c0ac10f4b98ea32/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/884708a9396f81808c0ac10f4b98ea32/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c769b1a3abedcf995c2267250ea92e24/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c769b1a3abedcf995c2267250ea92e24/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c62b13e1be73d1ff735cc59cf4350e9/jetified-transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c62b13e1be73d1ff735cc59cf4350e9/jetified-transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
+MERGED from [com.scottyab:rootbeer-lib:0.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/4a7635185f24f41e5a539b3751988d37/jetified-rootbeer-lib-0.1.0/AndroidManifest.xml:11:5-20
+MERGED from [com.scottyab:rootbeer-lib:0.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/4a7635185f24f41e5a539b3751988d37/jetified-rootbeer-lib-0.1.0/AndroidManifest.xml:11:5-20
+MERGED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:20:5-30:19
+MERGED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3ad76f60cf3f18b134e742dbd3854158/jetified-image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3ad76f60cf3f18b134e742dbd3854158/jetified-image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/21f7e83919889ba912a64c1d377679be/jetified-play-services-ads-base-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/21f7e83919889ba912a64c1d377679be/jetified-play-services-ads-base-15.0.1/AndroidManifest.xml:22:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:21:18-44
+	android:name
+		INJECTED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from [:file_picker] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:camera] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [:image_picker_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:path_provider_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:connectivity_plus] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:image_cropper] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:webview_flutter_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/webview_flutter_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:hypersnapsdk_flutter] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/hypersnapsdk_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:device_info] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/device_info/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:contact] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/contact/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:fluttertoast] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:permission_handler] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:2:1-67:12
+MERGED from [co.hyperverge:hypervideo:1.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/89518d6aa0e87a6d8c9df36ed8067d98/jetified-hypervideo-1.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ad201fac15a88598107ec645f351f5b4/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [co.hyperverge:crashguardsdk:1.0.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/98145c17c82ce5ef2deea798d6d5dc67/jetified-crashguardsdk-1.0.4/AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/e31d0ebb9c9b535fdc1b31fa800d41bb/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/063b8b79506c3fbd099af3f15d17f35c/jetified-datastore-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.webkit:webkit:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/385d6fc0f66ca457efb199b0b3a6ac61/webkit-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.yalantis:ucrop:2.2.8] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/dc5f536b86d379e1e69db518b4774c3b/jetified-ucrop-2.2.8/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.4.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/fb9848fa141ab751e8d830b3e1a09319/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:2:1-25:12
+MERGED from [co.hyperverge:face-detection-preview-frame:3.0.2] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c1e565d28eee19eb4adb60fcffc6f5fd/jetified-face-detection-preview-frame-3.0.2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6e54df96d6a5bf4769e08819d94f0098/constraintlayout-2.1.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/536a0e6924fd14451ea0f47abf81ff76/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/7aef650b2a3f43cba8ffe27d08b413c4/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:17:1-40:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/8a872343ad72e09c1db9590ff94dc0b1/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78f19b629cc560401cc662b6405c7ac4/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/2907e9a746e04d87bbcdff81cb1fe60c/jetified-play-services-location-15.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/438d5cd335ae60ecaecfb221b1f9c9b9/jetified-play-services-vision-20.1.3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/72bc659878eaa761921cb242932de200/jetified-play-services-auth-api-phone-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/0a6b001487d4444e8056bf4c3b4206c4/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-common:17.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c17d8007ca53509db8612badc6d286f9/jetified-vision-common-17.1.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c7c00cc33a1cb4a6739add8547e8cb49/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/a081a318db278ea77da5bc3cc19a9a2e/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/d6106efd4c9aef7e34a81c0e37f56c98/jetified-play-services-flags-17.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/beb5a03b1e75163015bd4e89a8f9ab6a/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/642cc9e2632e586d1058ed231591ead4/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/66ed5fb533b58b89ac3dbb2ee3df6900/jetified-play-services-ads-15.0.1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.mlkit:vision-interfaces:16.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/e2cbd44787dcca814dfcfd8af3970ed6/jetified-vision-interfaces-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c0dcb9670bd55e0a8304215ce9fef0db/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/959d260da627832d2185f6bcb9a3e3c2/jetified-play-services-places-placereport-15.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/522ce2ff28bdc808fffce587093f819d/jetified-play-services-ads-identifier-15.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/09d205bc5a71692258ea35865ef98b34/jetified-play-services-ads-lite-15.0.1/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ec2aa9a57c0502f8d02fa92cdaf710bb/jetified-play-services-gass-15.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/65c8b9154009d1931a3db50d7627d9e4/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/8d9ac4f576feffd2558f0cc20fbb942d/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/a6239eadcd8952bfba180cb8d9e12b6d/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/66101170bc83853b34fcae01409d2b5d/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/f67a098865f65bce4861f38e5b7d3f1b/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/f48a4efd536c3f688ae4585294152326/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/92d1f830d8a4f76d15ea1f849fb6f29f/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.2.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/eeafb259c81cec61cfc15dcc1f30d062/jetified-activity-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/2efc05e976be65ba7f6f40769896581c/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/09c1773ed3597f8bec6064dc26d157be/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ea2da72bd5ca4f251f51c345aebba41f/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/61fd575f974e3d768efc2f6a143e0eae/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/986216458f3c0df423ee68e7f1177976/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e71d298d88fa81568b0d74ff39fd136/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ae39e38aa58f5c391f29a4bfad4a41a4/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/9416e837706c8050a4b4397a65e9077c/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/627b1a478fb3a47175bfa78ea61ecb83/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/9ccab238727e236e8aff01a0f95cebe4/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/f6886f612e9817326f4f408c1489ce06/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/9344e812e9436e7dbce7c9baf11f7fbd/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c6575c923e75933616af1a602db32e0/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ba75471a221dffe13eac8188761db78a/exifinterface-1.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [co.hyperverge:hvcamera-sdk:3.0.7] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/4433c29350ba448576905c4b16290e01/jetified-hvcamera-sdk-3.0.7/AndroidManifest.xml:2:1-13:12
+MERGED from [com.rudderstack.android.sdk:core-mpx:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/9c61c6319b8c1e004758342e68947e30/jetified-core-mpx-1.1.0/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/8578375fbf5df5bbe65cca21a6cd6acf/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/69ba5a98805d81d755806668ff70d04f/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ac36d2f5b16183d06412574790e770da/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/1f318d44f7cc290e64a3a0110f6d1b61/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/42acb13871cd74f812098a2f4b7b2625/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6bb69121fbfc7f55675d79a165028fc2/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/884708a9396f81808c0ac10f4b98ea32/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c769b1a3abedcf995c2267250ea92e24/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c62b13e1be73d1ff735cc59cf4350e9/jetified-transport-runtime-2.2.6/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ca450cf9ca6e24b8ac643ce443962aa0/jetified-transport-api-2.2.1/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5ce0cd81cd39f9938c08cf6c4372f88f/jetified-firebase-components-16.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/a38be553da0da96b34af4404f61a0868/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/8108bc8c5f35a568f919dbab3be0e175/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/8d73be0136932816dbee106487237cd9/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/16e110bf603f94cf61f970a18f3907e3/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/9ed314abc3df537a2d48c1cb6d65998e/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/53007b1b67d39cbaab28f5e7912b2517/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/cf2c99aa287de2f08f087dc1237c8793/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/81577b20856de3173b99a652d8df052c/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/2d09096db7548b0ef6d8a0c0fcf99482/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.scottyab:rootbeer-lib:0.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/4a7635185f24f41e5a539b3751988d37/jetified-rootbeer-lib-0.1.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:2:1-32:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/06e034ef521ea217e46687be62063850/jetified-relinker-1.4.4/AndroidManifest.xml:2:1-7:12
+MERGED from [co.hyperverge:hypersnap-pdf:3.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/25f288f2708ec9cca1e72d8feb285503/jetified-hypersnap-pdf-3.0.0/AndroidManifest.xml:2:1-15:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bfc0955e244073bdc8cc139cda5e092/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3ad76f60cf3f18b134e742dbd3854158/jetified-image-1.0.0-beta1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/21f7e83919889ba912a64c1d377679be/jetified-play-services-ads-base-15.0.1/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/main/AndroidManifest.xml:2:5-45
+		INJECTED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/main/AndroidManifest.xml
+MERGED from [:file_picker] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:file_picker] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:camera] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:camera] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:connectivity_plus] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:connectivity_plus] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_cropper] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_cropper] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/webview_flutter_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/webview_flutter_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:hypersnapsdk_flutter] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/hypersnapsdk_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:hypersnapsdk_flutter] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/hypersnapsdk_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:device_info] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/device_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:device_info] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/device_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:contact] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/contact/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:contact] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/contact/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:8:5-10:41
+MERGED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:8:5-10:41
+MERGED from [co.hyperverge:hypervideo:1.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/89518d6aa0e87a6d8c9df36ed8067d98/jetified-hypervideo-1.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [co.hyperverge:hypervideo:1.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/89518d6aa0e87a6d8c9df36ed8067d98/jetified-hypervideo-1.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ad201fac15a88598107ec645f351f5b4/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ad201fac15a88598107ec645f351f5b4/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [co.hyperverge:crashguardsdk:1.0.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/98145c17c82ce5ef2deea798d6d5dc67/jetified-crashguardsdk-1.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [co.hyperverge:crashguardsdk:1.0.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/98145c17c82ce5ef2deea798d6d5dc67/jetified-crashguardsdk-1.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/e31d0ebb9c9b535fdc1b31fa800d41bb/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/e31d0ebb9c9b535fdc1b31fa800d41bb/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/063b8b79506c3fbd099af3f15d17f35c/jetified-datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/063b8b79506c3fbd099af3f15d17f35c/jetified-datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/385d6fc0f66ca457efb199b0b3a6ac61/webkit-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/385d6fc0f66ca457efb199b0b3a6ac61/webkit-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.yalantis:ucrop:2.2.8] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/dc5f536b86d379e1e69db518b4774c3b/jetified-ucrop-2.2.8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.8] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/dc5f536b86d379e1e69db518b4774c3b/jetified-ucrop-2.2.8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.4.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/fb9848fa141ab751e8d830b3e1a09319/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/fb9848fa141ab751e8d830b3e1a09319/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:7:5-44
+MERGED from [co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:7:5-44
+MERGED from [co.hyperverge:face-detection-preview-frame:3.0.2] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c1e565d28eee19eb4adb60fcffc6f5fd/jetified-face-detection-preview-frame-3.0.2/AndroidManifest.xml:7:5-9:41
+MERGED from [co.hyperverge:face-detection-preview-frame:3.0.2] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c1e565d28eee19eb4adb60fcffc6f5fd/jetified-face-detection-preview-frame-3.0.2/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6e54df96d6a5bf4769e08819d94f0098/constraintlayout-2.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6e54df96d6a5bf4769e08819d94f0098/constraintlayout-2.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/536a0e6924fd14451ea0f47abf81ff76/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/536a0e6924fd14451ea0f47abf81ff76/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/7aef650b2a3f43cba8ffe27d08b413c4/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/7aef650b2a3f43cba8ffe27d08b413c4/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/8a872343ad72e09c1db9590ff94dc0b1/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/8a872343ad72e09c1db9590ff94dc0b1/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78f19b629cc560401cc662b6405c7ac4/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78f19b629cc560401cc662b6405c7ac4/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/2907e9a746e04d87bbcdff81cb1fe60c/jetified-play-services-location-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/2907e9a746e04d87bbcdff81cb1fe60c/jetified-play-services-location-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/438d5cd335ae60ecaecfb221b1f9c9b9/jetified-play-services-vision-20.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/438d5cd335ae60ecaecfb221b1f9c9b9/jetified-play-services-vision-20.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/72bc659878eaa761921cb242932de200/jetified-play-services-auth-api-phone-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/72bc659878eaa761921cb242932de200/jetified-play-services-auth-api-phone-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/0a6b001487d4444e8056bf4c3b4206c4/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/0a6b001487d4444e8056bf4c3b4206c4/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-common:17.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c17d8007ca53509db8612badc6d286f9/jetified-vision-common-17.1.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c17d8007ca53509db8612badc6d286f9/jetified-vision-common-17.1.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c7c00cc33a1cb4a6739add8547e8cb49/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c7c00cc33a1cb4a6739add8547e8cb49/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/a081a318db278ea77da5bc3cc19a9a2e/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/a081a318db278ea77da5bc3cc19a9a2e/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/d6106efd4c9aef7e34a81c0e37f56c98/jetified-play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/d6106efd4c9aef7e34a81c0e37f56c98/jetified-play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/beb5a03b1e75163015bd4e89a8f9ab6a/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/beb5a03b1e75163015bd4e89a8f9ab6a/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/642cc9e2632e586d1058ed231591ead4/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/642cc9e2632e586d1058ed231591ead4/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/66ed5fb533b58b89ac3dbb2ee3df6900/jetified-play-services-ads-15.0.1/AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/66ed5fb533b58b89ac3dbb2ee3df6900/jetified-play-services-ads-15.0.1/AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.mlkit:vision-interfaces:16.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/e2cbd44787dcca814dfcfd8af3970ed6/jetified-vision-interfaces-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/e2cbd44787dcca814dfcfd8af3970ed6/jetified-vision-interfaces-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c0dcb9670bd55e0a8304215ce9fef0db/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c0dcb9670bd55e0a8304215ce9fef0db/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/959d260da627832d2185f6bcb9a3e3c2/jetified-play-services-places-placereport-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/959d260da627832d2185f6bcb9a3e3c2/jetified-play-services-places-placereport-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/522ce2ff28bdc808fffce587093f819d/jetified-play-services-ads-identifier-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/522ce2ff28bdc808fffce587093f819d/jetified-play-services-ads-identifier-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/09d205bc5a71692258ea35865ef98b34/jetified-play-services-ads-lite-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/09d205bc5a71692258ea35865ef98b34/jetified-play-services-ads-lite-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ec2aa9a57c0502f8d02fa92cdaf710bb/jetified-play-services-gass-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ec2aa9a57c0502f8d02fa92cdaf710bb/jetified-play-services-gass-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/65c8b9154009d1931a3db50d7627d9e4/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/65c8b9154009d1931a3db50d7627d9e4/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/8d9ac4f576feffd2558f0cc20fbb942d/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/8d9ac4f576feffd2558f0cc20fbb942d/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/a6239eadcd8952bfba180cb8d9e12b6d/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/a6239eadcd8952bfba180cb8d9e12b6d/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/66101170bc83853b34fcae01409d2b5d/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/66101170bc83853b34fcae01409d2b5d/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/f67a098865f65bce4861f38e5b7d3f1b/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/f67a098865f65bce4861f38e5b7d3f1b/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/f48a4efd536c3f688ae4585294152326/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/f48a4efd536c3f688ae4585294152326/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/92d1f830d8a4f76d15ea1f849fb6f29f/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/92d1f830d8a4f76d15ea1f849fb6f29f/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.2.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/eeafb259c81cec61cfc15dcc1f30d062/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/eeafb259c81cec61cfc15dcc1f30d062/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/2efc05e976be65ba7f6f40769896581c/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/2efc05e976be65ba7f6f40769896581c/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/09c1773ed3597f8bec6064dc26d157be/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/09c1773ed3597f8bec6064dc26d157be/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ea2da72bd5ca4f251f51c345aebba41f/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ea2da72bd5ca4f251f51c345aebba41f/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/61fd575f974e3d768efc2f6a143e0eae/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/61fd575f974e3d768efc2f6a143e0eae/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/986216458f3c0df423ee68e7f1177976/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/986216458f3c0df423ee68e7f1177976/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e71d298d88fa81568b0d74ff39fd136/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e71d298d88fa81568b0d74ff39fd136/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ae39e38aa58f5c391f29a4bfad4a41a4/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ae39e38aa58f5c391f29a4bfad4a41a4/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/9416e837706c8050a4b4397a65e9077c/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/9416e837706c8050a4b4397a65e9077c/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/627b1a478fb3a47175bfa78ea61ecb83/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/627b1a478fb3a47175bfa78ea61ecb83/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/9ccab238727e236e8aff01a0f95cebe4/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/9ccab238727e236e8aff01a0f95cebe4/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/f6886f612e9817326f4f408c1489ce06/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/f6886f612e9817326f4f408c1489ce06/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/9344e812e9436e7dbce7c9baf11f7fbd/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/9344e812e9436e7dbce7c9baf11f7fbd/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c6575c923e75933616af1a602db32e0/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c6575c923e75933616af1a602db32e0/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ba75471a221dffe13eac8188761db78a/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ba75471a221dffe13eac8188761db78a/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [co.hyperverge:hvcamera-sdk:3.0.7] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/4433c29350ba448576905c4b16290e01/jetified-hvcamera-sdk-3.0.7/AndroidManifest.xml:7:5-9:41
+MERGED from [co.hyperverge:hvcamera-sdk:3.0.7] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/4433c29350ba448576905c4b16290e01/jetified-hvcamera-sdk-3.0.7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.rudderstack.android.sdk:core-mpx:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/9c61c6319b8c1e004758342e68947e30/jetified-core-mpx-1.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.rudderstack.android.sdk:core-mpx:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/9c61c6319b8c1e004758342e68947e30/jetified-core-mpx-1.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/8578375fbf5df5bbe65cca21a6cd6acf/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/8578375fbf5df5bbe65cca21a6cd6acf/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/69ba5a98805d81d755806668ff70d04f/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/69ba5a98805d81d755806668ff70d04f/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ac36d2f5b16183d06412574790e770da/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ac36d2f5b16183d06412574790e770da/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/1f318d44f7cc290e64a3a0110f6d1b61/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/1f318d44f7cc290e64a3a0110f6d1b61/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/42acb13871cd74f812098a2f4b7b2625/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/42acb13871cd74f812098a2f4b7b2625/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6bb69121fbfc7f55675d79a165028fc2/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6bb69121fbfc7f55675d79a165028fc2/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/884708a9396f81808c0ac10f4b98ea32/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/884708a9396f81808c0ac10f4b98ea32/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c769b1a3abedcf995c2267250ea92e24/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c769b1a3abedcf995c2267250ea92e24/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c62b13e1be73d1ff735cc59cf4350e9/jetified-transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c62b13e1be73d1ff735cc59cf4350e9/jetified-transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ca450cf9ca6e24b8ac643ce443962aa0/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ca450cf9ca6e24b8ac643ce443962aa0/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5ce0cd81cd39f9938c08cf6c4372f88f/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5ce0cd81cd39f9938c08cf6c4372f88f/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/a38be553da0da96b34af4404f61a0868/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/a38be553da0da96b34af4404f61a0868/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/8108bc8c5f35a568f919dbab3be0e175/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/8108bc8c5f35a568f919dbab3be0e175/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/8d73be0136932816dbee106487237cd9/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/8d73be0136932816dbee106487237cd9/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/16e110bf603f94cf61f970a18f3907e3/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/16e110bf603f94cf61f970a18f3907e3/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/9ed314abc3df537a2d48c1cb6d65998e/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/9ed314abc3df537a2d48c1cb6d65998e/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/53007b1b67d39cbaab28f5e7912b2517/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/53007b1b67d39cbaab28f5e7912b2517/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/cf2c99aa287de2f08f087dc1237c8793/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/cf2c99aa287de2f08f087dc1237c8793/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/81577b20856de3173b99a652d8df052c/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/81577b20856de3173b99a652d8df052c/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/2d09096db7548b0ef6d8a0c0fcf99482/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/2d09096db7548b0ef6d8a0c0fcf99482/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.scottyab:rootbeer-lib:0.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/4a7635185f24f41e5a539b3751988d37/jetified-rootbeer-lib-0.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.scottyab:rootbeer-lib:0.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/4a7635185f24f41e5a539b3751988d37/jetified-rootbeer-lib-0.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:8:5-10:41
+MERGED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:8:5-10:41
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/06e034ef521ea217e46687be62063850/jetified-relinker-1.4.4/AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/06e034ef521ea217e46687be62063850/jetified-relinker-1.4.4/AndroidManifest.xml:5:5-43
+MERGED from [co.hyperverge:hypersnap-pdf:3.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/25f288f2708ec9cca1e72d8feb285503/jetified-hypersnap-pdf-3.0.0/AndroidManifest.xml:7:5-44
+MERGED from [co.hyperverge:hypersnap-pdf:3.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/25f288f2708ec9cca1e72d8feb285503/jetified-hypersnap-pdf-3.0.0/AndroidManifest.xml:7:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bfc0955e244073bdc8cc139cda5e092/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bfc0955e244073bdc8cc139cda5e092/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3ad76f60cf3f18b134e742dbd3854158/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3ad76f60cf3f18b134e742dbd3854158/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/21f7e83919889ba912a64c1d377679be/jetified-play-services-ads-base-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/21f7e83919889ba912a64c1d377679be/jetified-play-services-ads-base-15.0.1/AndroidManifest.xml:20:5-44
+INJECTED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/debug/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/66ed5fb533b58b89ac3dbb2ee3df6900/jetified-play-services-ads-15.0.1/AndroidManifest.xml:23:9-49
+	android:targetSdkVersion
+		INJECTED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/debug/AndroidManifest.xml:6:5-66
+MERGED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:14:5-67
+MERGED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:14:5-67
+MERGED from [co.hyperverge:crashguardsdk:1.0.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/98145c17c82ce5ef2deea798d6d5dc67/jetified-crashguardsdk-1.0.4/AndroidManifest.xml:9:5-67
+MERGED from [co.hyperverge:crashguardsdk:1.0.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/98145c17c82ce5ef2deea798d6d5dc67/jetified-crashguardsdk-1.0.4/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/09d205bc5a71692258ea35865ef98b34/jetified-play-services-ads-lite-15.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/09d205bc5a71692258ea35865ef98b34/jetified-play-services-ads-lite-15.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.rudderstack.android.sdk:core-mpx:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/9c61c6319b8c1e004758342e68947e30/jetified-core-mpx-1.1.0/AndroidManifest.xml:11:5-67
+MERGED from [com.rudderstack.android.sdk:core-mpx:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/9c61c6319b8c1e004758342e68947e30/jetified-core-mpx-1.1.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c769b1a3abedcf995c2267250ea92e24/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c769b1a3abedcf995c2267250ea92e24/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/debug/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:file_picker] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from [:file_picker] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+queries
+ADDED from [:file_picker] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-15:15
+intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
+ADDED from [:file_picker] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-14:18
+action#android.intent.action.GET_CONTENT
+ADDED from [:file_picker] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-72
+	android:name
+		ADDED from [:file_picker] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:21-69
+data
+ADDED from [:file_picker] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-44
+	android:mimeType
+		ADDED from [:file_picker] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:19-41
+uses-permission#android.permission.CAMERA
+ADDED from [:camera] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-65
+MERGED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:15:5-65
+MERGED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:15:5-65
+MERGED from [co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:9:5-65
+MERGED from [co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:9:5-65
+MERGED from [co.hyperverge:hvcamera-sdk:3.0.7] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/4433c29350ba448576905c4b16290e01/jetified-hvcamera-sdk-3.0.7/AndroidManifest.xml:11:5-65
+MERGED from [co.hyperverge:hvcamera-sdk:3.0.7] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/4433c29350ba448576905c4b16290e01/jetified-hvcamera-sdk-3.0.7/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from [:camera] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [:camera] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-71
+	android:name
+		ADDED from [:camera] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-68
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+	android:authorities
+		ADDED from [:image_picker_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+	android:exported
+		ADDED from [:image_picker_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [:image_picker_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+	android:resource
+		ADDED from [:image_picker_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+	android:name
+		ADDED from [:image_picker_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:connectivity_plus] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+MERGED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:12:5-79
+MERGED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:12:5-79
+MERGED from [co.hyperverge:crashguardsdk:1.0.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/98145c17c82ce5ef2deea798d6d5dc67/jetified-crashguardsdk-1.0.4/AndroidManifest.xml:10:5-79
+MERGED from [co.hyperverge:crashguardsdk:1.0.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/98145c17c82ce5ef2deea798d6d5dc67/jetified-crashguardsdk-1.0.4/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/09d205bc5a71692258ea35865ef98b34/jetified-play-services-ads-lite-15.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/09d205bc5a71692258ea35865ef98b34/jetified-play-services-ads-lite-15.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c769b1a3abedcf995c2267250ea92e24/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c769b1a3abedcf995c2267250ea92e24/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c62b13e1be73d1ff735cc59cf4350e9/jetified-transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c62b13e1be73d1ff735cc59cf4350e9/jetified-transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
+MERGED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:13:5-79
+MERGED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [:connectivity_plus] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [:contact] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/contact/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-75
+MERGED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:17:5-75
+MERGED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:17:5-75
+	android:name
+		ADDED from [:contact] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/contact/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-72
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:13:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:16:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:17:5-81
+MERGED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:12:5-81
+MERGED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:17:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:18:5-68
+MERGED from [co.hyperverge:crashguardsdk:1.0.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/98145c17c82ce5ef2deea798d6d5dc67/jetified-crashguardsdk-1.0.4/AndroidManifest.xml:11:5-68
+MERGED from [co.hyperverge:crashguardsdk:1.0.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/98145c17c82ce5ef2deea798d6d5dc67/jetified-crashguardsdk-1.0.4/AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:18:22-65
+activity#co.hyperverge.hypersnapsdk.activities.HVRetakeActivity
+ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:22:9-26:83
+	android:screenOrientation
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:25:13-49
+	android:configChanges
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:24:13-43
+	android:theme
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:26:13-80
+	android:name
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:23:13-82
+activity#co.hyperverge.hypersnapsdk.activities.HVDocInstructionActivity
+ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:27:9-31:83
+	android:screenOrientation
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:30:13-49
+	android:configChanges
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:29:13-43
+	android:theme
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:31:13-80
+	android:name
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:28:13-90
+activity#co.hyperverge.hypersnapsdk.activities.HVDocsActivity
+ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:32:9-36:83
+	android:screenOrientation
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:35:13-49
+	android:configChanges
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:34:13-43
+	android:theme
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:36:13-80
+	android:name
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:33:13-80
+activity#co.hyperverge.hypersnapsdk.activities.HVFaceInstructionActivity
+ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:37:9-41:83
+	android:screenOrientation
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:40:13-49
+	android:configChanges
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:39:13-43
+	android:theme
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:41:13-80
+	android:name
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:38:13-91
+activity#co.hyperverge.hypersnapsdk.activities.HVFaceActivity
+ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:42:9-46:83
+	android:screenOrientation
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:45:13-49
+	android:configChanges
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:44:13-43
+	android:theme
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:46:13-80
+	android:name
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:43:13-80
+activity#co.hyperverge.hypersnapsdk.activities.HVDocReviewActivity
+ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:47:9-51:83
+	android:screenOrientation
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:50:13-49
+	android:configChanges
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:49:13-43
+	android:theme
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:51:13-80
+	android:name
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:48:13-85
+service#co.hyperverge.hypersnapsdk.analytics.mixpanel.network.MixPanelIntentService
+ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:53:9-56:72
+	android:exported
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:55:13-37
+	android:permission
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:56:13-69
+	android:name
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:54:13-103
+meta-data#com.google.mlkit.vision.DEPENDENCIES
+ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:58:9-60:36
+	android:value
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:60:13-33
+	android:name
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:59:13-64
+provider#com.rudderstack.android.sdk.core.EventContentProvider
+ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:62:9-64:75
+	android:authorities
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:64:13-72
+	android:name
+		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:63:13-81
+service#co.hyperverge.crashguard.services.CrashIntentService
+ADDED from [co.hyperverge:crashguardsdk:1.0.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/98145c17c82ce5ef2deea798d6d5dc67/jetified-crashguardsdk-1.0.4/AndroidManifest.xml:14:9-17:72
+	android:exported
+		ADDED from [co.hyperverge:crashguardsdk:1.0.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/98145c17c82ce5ef2deea798d6d5dc67/jetified-crashguardsdk-1.0.4/AndroidManifest.xml:16:13-36
+	android:permission
+		ADDED from [co.hyperverge:crashguardsdk:1.0.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/98145c17c82ce5ef2deea798d6d5dc67/jetified-crashguardsdk-1.0.4/AndroidManifest.xml:17:13-69
+	android:name
+		ADDED from [co.hyperverge:crashguardsdk:1.0.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/98145c17c82ce5ef2deea798d6d5dc67/jetified-crashguardsdk-1.0.4/AndroidManifest.xml:15:13-80
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+activity#co.hyperverge.hvqrmodule.activities.QRScannerActivity
+ADDED from [co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:12:9-15:83
+	android:screenOrientation
+		ADDED from [co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:14:13-49
+	android:theme
+		ADDED from [co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:15:13-80
+	android:name
+		ADDED from [co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:13:13-81
+meta-data#com.google.android.gms.vision.DEPENDENCIES
+ADDED from [co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:17:9-19:39
+	android:value
+		ADDED from [co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:19:13-36
+	android:name
+		ADDED from [co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:18:13-70
+meta-data#preloaded_fonts
+ADDED from [co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:20:9-22:57
+	android:resource
+		ADDED from [co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:22:13-54
+	android:name
+		ADDED from [co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:21:13-43
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78f19b629cc560401cc662b6405c7ac4/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c17d8007ca53509db8612badc6d286f9/jetified-vision-common-17.1.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c17d8007ca53509db8612badc6d286f9/jetified-vision-common-17.1.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78f19b629cc560401cc662b6405c7ac4/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78f19b629cc560401cc662b6405c7ac4/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:10:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78f19b629cc560401cc662b6405c7ac4/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78f19b629cc560401cc662b6405c7ac4/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78f19b629cc560401cc662b6405c7ac4/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:17.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c17d8007ca53509db8612badc6d286f9/jetified-vision-common-17.1.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:17.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c17d8007ca53509db8612badc6d286f9/jetified-vision-common-17.1.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:17.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c17d8007ca53509db8612badc6d286f9/jetified-vision-common-17.1.0/AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:21:17-120
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/642cc9e2632e586d1058ed231591ead4/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/642cc9e2632e586d1058ed231591ead4/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/642cc9e2632e586d1058ed231591ead4/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/642cc9e2632e586d1058ed231591ead4/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/09d205bc5a71692258ea35865ef98b34/jetified-play-services-ads-lite-15.0.1/AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/09d205bc5a71692258ea35865ef98b34/jetified-play-services-ads-lite-15.0.1/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/09d205bc5a71692258ea35865ef98b34/jetified-play-services-ads-lite-15.0.1/AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/09d205bc5a71692258ea35865ef98b34/jetified-play-services-ads-lite-15.0.1/AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/09d205bc5a71692258ea35865ef98b34/jetified-play-services-ads-lite-15.0.1/AndroidManifest.xml:30:13-65
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/65c8b9154009d1931a3db50d7627d9e4/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/65c8b9154009d1931a3db50d7627d9e4/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/65c8b9154009d1931a3db50d7627d9e4/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c769b1a3abedcf995c2267250ea92e24/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c62b13e1be73d1ff735cc59cf4350e9/jetified-transport-runtime-2.2.6/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c62b13e1be73d1ff735cc59cf4350e9/jetified-transport-runtime-2.2.6/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c769b1a3abedcf995c2267250ea92e24/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c769b1a3abedcf995c2267250ea92e24/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c769b1a3abedcf995c2267250ea92e24/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c769b1a3abedcf995c2267250ea92e24/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c769b1a3abedcf995c2267250ea92e24/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c62b13e1be73d1ff735cc59cf4350e9/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c62b13e1be73d1ff735cc59cf4350e9/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c62b13e1be73d1ff735cc59cf4350e9/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c62b13e1be73d1ff735cc59cf4350e9/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c62b13e1be73d1ff735cc59cf4350e9/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c62b13e1be73d1ff735cc59cf4350e9/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c62b13e1be73d1ff735cc59cf4350e9/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+uses-permission#android.permission.BLUETOOTH
+ADDED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:14:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:15:5-74
+	android:name
+		ADDED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:15:22-71
+uses-permission#android.permission.LOCAL_MAC_ADDRESS
+ADDED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:16:22-73
+uses-permission#android.permission.SEND_SMS
+ADDED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:18:22-64
+activity#com.ybl.ypp.sdk.GetTokenActivity
+ADDED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:21:9-25:45
+	android:windowSoftInputMode
+		ADDED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:24:13-56
+	tools:ignore
+		ADDED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:25:13-42
+	android:theme
+		ADDED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:23:13-53
+	android:name
+		ADDED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:22:13-60
+activity#com.ybl.ypp.sdk.SendOutwardSMSActivity
+ADDED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:26:9-29:45
+	tools:ignore
+		ADDED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:29:13-42
+	android:theme
+		ADDED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:28:13-53
+	android:name
+		ADDED from [com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:27:13-66
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [co.hyperverge:hypersnap-pdf:3.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/25f288f2708ec9cca1e72d8feb285503/jetified-hypersnap-pdf-3.0.0/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from [co.hyperverge:hypersnap-pdf:3.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/25f288f2708ec9cca1e72d8feb285503/jetified-hypersnap-pdf-3.0.0/AndroidManifest.xml:13:22-78

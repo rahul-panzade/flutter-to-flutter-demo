@@ -1,0 +1,408 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutter_to_flutter"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:file_picker] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+15-->[:file_picker] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+16
+17    <queries>
+17-->[:file_picker] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-15:15
+18        <intent>
+18-->[:file_picker] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-14:18
+19            <action android:name="android.intent.action.GET_CONTENT" />
+19-->[:file_picker] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-72
+19-->[:file_picker] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:21-69
+20
+21            <data android:mimeType="*/*" />
+21-->[:file_picker] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-44
+21-->[:file_picker] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:19-41
+22        </intent>
+23    </queries>
+24
+25    <uses-permission android:name="android.permission.CAMERA" />
+25-->[:camera] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-65
+25-->[:camera] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-62
+26    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+26-->[:camera] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-71
+26-->[:camera] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-68
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->[:connectivity_plus] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+27-->[:connectivity_plus] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
+28    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+28-->[:contact] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/contact/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-75
+28-->[:contact] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/contact/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-72
+29    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+29-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:13:5-76
+29-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:13:22-73
+30    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+30-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:16:5-79
+30-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:16:22-76
+31    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+31-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:17:5-81
+31-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:17:22-78
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:18:5-68
+32-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:18:22-65
+33    <uses-permission android:name="android.permission.BLUETOOTH" />
+33-->[com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:14:5-68
+33-->[com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:14:22-65
+34    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+34-->[com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:15:5-74
+34-->[com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:15:22-71
+35    <uses-permission android:name="android.permission.LOCAL_MAC_ADDRESS" />
+35-->[com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:16:5-76
+35-->[com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:16:22-73
+36    <uses-permission android:name="android.permission.SEND_SMS" /> <!-- <uses-sdk -->
+36-->[com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:18:5-67
+36-->[com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:18:22-64
+37    <!-- android:minSdkVersion="15" -->
+38    <!-- android:targetSdkVersion="15" /> -->
+39    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+39-->[co.hyperverge:hypersnap-pdf:3.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/25f288f2708ec9cca1e72d8feb285503/jetified-hypersnap-pdf-3.0.0/AndroidManifest.xml:13:5-81
+39-->[co.hyperverge:hypersnap-pdf:3.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/25f288f2708ec9cca1e72d8feb285503/jetified-hypersnap-pdf-3.0.0/AndroidManifest.xml:13:22-78
+40
+41    <application
+42        android:name="android.app.Application"
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.6.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:24:18-86
+44        android:debuggable="true"
+45        android:icon="@mipmap/ic_launcher"
+46        android:label="flutter_to_flutter"
+47        android:supportsRtl="true" >
+47-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:21:18-44
+48        <activity
+49            android:name="com.example.flutter_to_flutter.MainActivity"
+50            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+51            android:exported="true"
+52            android:hardwareAccelerated="true"
+53            android:launchMode="singleTop"
+54            android:theme="@style/LaunchTheme"
+55            android:windowSoftInputMode="adjustResize" >
+56
+57            <!--
+58                 Specifies an Android theme to apply to this Activity as soon as
+59                 the Android process has started. This theme is visible to the user
+60                 while the Flutter UI initializes. After that, this theme continues
+61                 to determine the Window background behind the Flutter UI.
+62            -->
+63            <meta-data
+64                android:name="io.flutter.embedding.android.NormalTheme"
+65                android:resource="@style/NormalTheme" />
+66
+67            <intent-filter>
+68                <action android:name="android.intent.action.MAIN" />
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+71            </intent-filter>
+72        </activity>
+73        <!--
+74             Don't delete the meta-data below.
+75             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+76        -->
+77        <meta-data
+78            android:name="flutterEmbedding"
+79            android:value="2" />
+80
+81        <provider
+81-->[:image_picker_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+82            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+82-->[:image_picker_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
+83            android:authorities="com.example.flutter_to_flutter.flutter.image_provider"
+83-->[:image_picker_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+84            android:exported="false"
+84-->[:image_picker_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+85            android:grantUriPermissions="true" >
+85-->[:image_picker_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+86            <meta-data
+86-->[:image_picker_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+87                android:name="android.support.FILE_PROVIDER_PATHS"
+87-->[:image_picker_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+88                android:resource="@xml/flutter_image_picker_file_paths" />
+88-->[:image_picker_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+89        </provider>
+90
+91        <activity
+91-->[:url_launcher_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+92            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+92-->[:url_launcher_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+93            android:exported="false"
+93-->[:url_launcher_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+94            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+94-->[:url_launcher_android] /Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+95        <activity
+95-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:22:9-26:83
+96            android:name="co.hyperverge.hypersnapsdk.activities.HVRetakeActivity"
+96-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:23:13-82
+97            android:configChanges="locale"
+97-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:24:13-43
+98            android:screenOrientation="portrait"
+98-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:25:13-49
+99            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+99-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:26:13-80
+100        <activity
+100-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:27:9-31:83
+101            android:name="co.hyperverge.hypersnapsdk.activities.HVDocInstructionActivity"
+101-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:28:13-90
+102            android:configChanges="locale"
+102-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:29:13-43
+103            android:screenOrientation="portrait"
+103-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:30:13-49
+104            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+104-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:31:13-80
+105        <activity
+105-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:32:9-36:83
+106            android:name="co.hyperverge.hypersnapsdk.activities.HVDocsActivity"
+106-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:33:13-80
+107            android:configChanges="locale"
+107-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:34:13-43
+108            android:screenOrientation="portrait"
+108-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:35:13-49
+109            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+109-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:36:13-80
+110        <activity
+110-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:37:9-41:83
+111            android:name="co.hyperverge.hypersnapsdk.activities.HVFaceInstructionActivity"
+111-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:38:13-91
+112            android:configChanges="locale"
+112-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:39:13-43
+113            android:screenOrientation="portrait"
+113-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:40:13-49
+114            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+114-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:41:13-80
+115        <activity
+115-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:42:9-46:83
+116            android:name="co.hyperverge.hypersnapsdk.activities.HVFaceActivity"
+116-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:43:13-80
+117            android:configChanges="locale"
+117-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:44:13-43
+118            android:screenOrientation="portrait"
+118-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:45:13-49
+119            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+119-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:46:13-80
+120        <activity
+120-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:47:9-51:83
+121            android:name="co.hyperverge.hypersnapsdk.activities.HVDocReviewActivity"
+121-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:48:13-85
+122            android:configChanges="locale"
+122-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:49:13-43
+123            android:screenOrientation="portrait"
+123-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:50:13-49
+124            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+124-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:51:13-80
+125
+126        <service
+126-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:53:9-56:72
+127            android:name="co.hyperverge.hypersnapsdk.analytics.mixpanel.network.MixPanelIntentService"
+127-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:54:13-103
+128            android:exported="false"
+128-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:55:13-37
+129            android:permission="android.permission.BIND_JOB_SERVICE" />
+129-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:56:13-69
+130
+131        <meta-data
+131-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:58:9-60:36
+132            android:name="com.google.mlkit.vision.DEPENDENCIES"
+132-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:59:13-64
+133            android:value="face" />
+133-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:60:13-33
+134
+135        <provider
+135-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:62:9-64:75
+136            android:name="com.rudderstack.android.sdk.core.EventContentProvider"
+136-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:63:13-81
+137            android:authorities="com.example.flutter_to_flutter.EventContentProvider" />
+137-->[co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:64:13-72
+138
+139        <service
+139-->[co.hyperverge:crashguardsdk:1.0.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/98145c17c82ce5ef2deea798d6d5dc67/jetified-crashguardsdk-1.0.4/AndroidManifest.xml:14:9-17:72
+140            android:name="co.hyperverge.crashguard.services.CrashIntentService"
+140-->[co.hyperverge:crashguardsdk:1.0.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/98145c17c82ce5ef2deea798d6d5dc67/jetified-crashguardsdk-1.0.4/AndroidManifest.xml:15:13-80
+141            android:exported="true"
+141-->[co.hyperverge:crashguardsdk:1.0.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/98145c17c82ce5ef2deea798d6d5dc67/jetified-crashguardsdk-1.0.4/AndroidManifest.xml:16:13-36
+142            android:permission="android.permission.BIND_JOB_SERVICE" />
+142-->[co.hyperverge:crashguardsdk:1.0.4] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/98145c17c82ce5ef2deea798d6d5dc67/jetified-crashguardsdk-1.0.4/AndroidManifest.xml:17:13-69
+143
+144        <uses-library
+144-->[androidx.window:window:1.0.0-beta04] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+145            android:name="androidx.window.extensions"
+145-->[androidx.window:window:1.0.0-beta04] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+146            android:required="false" />
+146-->[androidx.window:window:1.0.0-beta04] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+147        <uses-library
+147-->[androidx.window:window:1.0.0-beta04] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+148            android:name="androidx.window.sidecar"
+148-->[androidx.window:window:1.0.0-beta04] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+149            android:required="false" />
+149-->[androidx.window:window:1.0.0-beta04] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+150
+151        <activity
+151-->[co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:12:9-15:83
+152            android:name="co.hyperverge.hvqrmodule.activities.QRScannerActivity"
+152-->[co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:13:13-81
+153            android:screenOrientation="portrait"
+153-->[co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:14:13-49
+154            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+154-->[co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:15:13-80
+155
+156        <meta-data
+156-->[co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:17:9-19:39
+157            android:name="com.google.android.gms.vision.DEPENDENCIES"
+157-->[co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:18:13-70
+158            android:value="barcode" />
+158-->[co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:19:13-36
+159        <meta-data
+159-->[co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:20:9-22:57
+160            android:name="preloaded_fonts"
+160-->[co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:21:13-43
+161            android:resource="@array/preloaded_fonts" />
+161-->[co.hyperverge:hypersnapsdk-qrscanner:3.0.5] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/3e34a6ce26cfdc02013cdd0812d4a025/jetified-hypersnapsdk-qrscanner-3.0.5/AndroidManifest.xml:22:13-54
+162
+163        <activity
+163-->[com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+164            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+164-->[com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+165            android:excludeFromRecents="true"
+165-->[com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+166            android:exported="false"
+166-->[com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+167            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+167-->[com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+168        <!--
+169            Service handling Google Sign-In user revocation. For apps that do not integrate with
+170            Google Sign-In, this service will never be started.
+171        -->
+172        <service
+172-->[com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+173            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+173-->[com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+174            android:exported="true"
+174-->[com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+175            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+175-->[com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+176            android:visibleToInstantApps="true" />
+176-->[com.google.android.gms:play-services-auth:19.2.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/5bc9b13a861d60fc6dad100785a5cfd2/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+177        <service
+177-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78f19b629cc560401cc662b6405c7ac4/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:9:9-15:19
+178            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+178-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78f19b629cc560401cc662b6405c7ac4/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:10:13-91
+179            android:directBootAware="true"
+179-->[com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:17:13-43
+180            android:exported="false" >
+180-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78f19b629cc560401cc662b6405c7ac4/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:11:13-37
+181            <meta-data
+181-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78f19b629cc560401cc662b6405c7ac4/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:12:13-14:85
+182                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+182-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78f19b629cc560401cc662b6405c7ac4/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:13:17-114
+183                android:value="com.google.firebase.components.ComponentRegistrar" />
+183-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78f19b629cc560401cc662b6405c7ac4/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:14:17-82
+184            <meta-data
+184-->[com.google.mlkit:vision-common:17.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c17d8007ca53509db8612badc6d286f9/jetified-vision-common-17.1.0/AndroidManifest.xml:12:13-14:85
+185                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+185-->[com.google.mlkit:vision-common:17.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c17d8007ca53509db8612badc6d286f9/jetified-vision-common-17.1.0/AndroidManifest.xml:13:17-124
+186                android:value="com.google.firebase.components.ComponentRegistrar" />
+186-->[com.google.mlkit:vision-common:17.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c17d8007ca53509db8612badc6d286f9/jetified-vision-common-17.1.0/AndroidManifest.xml:14:17-82
+187            <meta-data
+187-->[com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:20:13-22:85
+188                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+188-->[com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:21:17-120
+189                android:value="com.google.firebase.components.ComponentRegistrar" />
+189-->[com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:22:17-82
+190        </service>
+191
+192        <provider
+192-->[com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:9:9-13:38
+193            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+193-->[com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:10:13-78
+194            android:authorities="com.example.flutter_to_flutter.mlkitinitprovider"
+194-->[com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:11:13-69
+195            android:exported="false"
+195-->[com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:12:13-37
+196            android:initOrder="99" />
+196-->[com.google.mlkit:common:18.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/76ca0675be61f3ba2369709579a89bb7/jetified-common-18.1.0/AndroidManifest.xml:13:13-35
+197
+198        <activity
+198-->[com.google.android.gms:play-services-base:18.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/642cc9e2632e586d1058ed231591ead4/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+199            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+199-->[com.google.android.gms:play-services-base:18.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/642cc9e2632e586d1058ed231591ead4/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+200            android:exported="false"
+200-->[com.google.android.gms:play-services-base:18.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/642cc9e2632e586d1058ed231591ead4/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+201            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+201-->[com.google.android.gms:play-services-base:18.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/642cc9e2632e586d1058ed231591ead4/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+202        <activity
+202-->[com.google.android.gms:play-services-ads-lite:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/09d205bc5a71692258ea35865ef98b34/jetified-play-services-ads-lite-15.0.1/AndroidManifest.xml:29:9-33:64
+203            android:name="com.google.android.gms.ads.AdActivity"
+203-->[com.google.android.gms:play-services-ads-lite:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/09d205bc5a71692258ea35865ef98b34/jetified-play-services-ads-lite-15.0.1/AndroidManifest.xml:30:13-65
+204            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+204-->[com.google.android.gms:play-services-ads-lite:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/09d205bc5a71692258ea35865ef98b34/jetified-play-services-ads-lite-15.0.1/AndroidManifest.xml:31:13-122
+205            android:exported="false"
+205-->[com.google.android.gms:play-services-ads-lite:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/09d205bc5a71692258ea35865ef98b34/jetified-play-services-ads-lite-15.0.1/AndroidManifest.xml:32:13-37
+206            android:theme="@android:style/Theme.Translucent" />
+206-->[com.google.android.gms:play-services-ads-lite:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/09d205bc5a71692258ea35865ef98b34/jetified-play-services-ads-lite-15.0.1/AndroidManifest.xml:33:13-61
+207
+208        <meta-data
+208-->[com.google.android.gms:play-services-basement:18.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/65c8b9154009d1931a3db50d7627d9e4/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+209            android:name="com.google.android.gms.version"
+209-->[com.google.android.gms:play-services-basement:18.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/65c8b9154009d1931a3db50d7627d9e4/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+210            android:value="@integer/google_play_services_version" />
+210-->[com.google.android.gms:play-services-basement:18.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/65c8b9154009d1931a3db50d7627d9e4/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+211
+212        <service
+212-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c769b1a3abedcf995c2267250ea92e24/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+213            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+213-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c769b1a3abedcf995c2267250ea92e24/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+214            android:exported="false" >
+214-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c769b1a3abedcf995c2267250ea92e24/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+215            <meta-data
+215-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c769b1a3abedcf995c2267250ea92e24/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+216                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+216-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c769b1a3abedcf995c2267250ea92e24/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+217                android:value="cct" />
+217-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c769b1a3abedcf995c2267250ea92e24/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+218        </service>
+219        <service
+219-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c62b13e1be73d1ff735cc59cf4350e9/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+220            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+220-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c62b13e1be73d1ff735cc59cf4350e9/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+221            android:exported="false"
+221-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c62b13e1be73d1ff735cc59cf4350e9/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+222            android:permission="android.permission.BIND_JOB_SERVICE" >
+222-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c62b13e1be73d1ff735cc59cf4350e9/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+223        </service>
+224
+225        <receiver
+225-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c62b13e1be73d1ff735cc59cf4350e9/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+226            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+226-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c62b13e1be73d1ff735cc59cf4350e9/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+227            android:exported="false" />
+227-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c62b13e1be73d1ff735cc59cf4350e9/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+228
+229        <activity
+229-->[com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:21:9-25:45
+230            android:name="com.ybl.ypp.sdk.GetTokenActivity"
+230-->[com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:22:13-60
+231            android:theme="@style/Theme.Transparent"
+231-->[com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:23:13-53
+232            android:windowSoftInputMode="adjustNothing" />
+232-->[com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:24:13-56
+233        <activity
+233-->[com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:26:9-29:45
+234            android:name="com.ybl.ypp.sdk.SendOutwardSMSActivity"
+234-->[com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:27:13-66
+235            android:theme="@style/Theme.Transparent" />
+235-->[com.library:yesbank:1.0.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/901d516340755dfdd688a5e5b2f4c8bb/jetified-yesbank-1.0.3/AndroidManifest.xml:28:13-53
+236    </application>
+237
+238</manifest>

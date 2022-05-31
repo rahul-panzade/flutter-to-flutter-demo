@@ -1,0 +1,46 @@
+buildscript {
+    ext.kotlin_version = '1.6.10'
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url "s3://hvsdk/android/releases"
+            credentials(AwsCredentials) {
+                accessKey "AKIAXB3KY4F5AQJD6WHT"
+                secretKey "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"
+            }
+        }
+        maven {
+            url "http://kyc.angelbroking.com:8082/artifactory/libs-yesbank-local"
+            allowInsecureProtocol = true
+            credentials {
+                username 'dsjfsdaf423nbd7qwdw72348ndy39'
+                password 'AP4K9bDLzVz2CHoHedHb6Xkyrwu'
+            }
+        }
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

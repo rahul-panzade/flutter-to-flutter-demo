@@ -1,0 +1,33 @@
+co/hyperverge/hypersnapsdk/hypersnapsdk_flutter/FLHVDocsCapture.java
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.FLHVDocsCapture
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.FLHVDocsCapture$1
+co/hyperverge/hypersnapsdk/hypersnapsdk_flutter/BuildConfig.java
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.BuildConfig
+co/hyperverge/hypersnapsdk/hypersnapsdk_flutter/FLHVNetworkHelper.java
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.FLHVNetworkHelper
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.FLHVNetworkHelper$1
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.FLHVNetworkHelper$2
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.FLHVNetworkHelper$3
+co/hyperverge/hypersnapsdk/hypersnapsdk_flutter/FLHyperSnapParams.java
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.FLHyperSnapParams
+co/hyperverge/hypersnapsdk/hypersnapsdk_flutter/FLHVQRScanCapture.java
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.FLHVQRScanCapture
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.FLHVQRScanCapture$1
+co/hyperverge/hypersnapsdk/hypersnapsdk_flutter/FLHyperSnapSDK.java
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.FLHyperSnapSDK
+co/hyperverge/hypersnapsdk/hypersnapsdk_flutter/FLHVFaceCapture.java
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.FLHVFaceCapture
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.FLHVFaceCapture$1
+co/hyperverge/hypersnapsdk/hypersnapsdk_flutter/HypersnapsdkFlutterPlugin.java
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.HypersnapsdkFlutterPlugin
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.HypersnapsdkFlutterPlugin$1
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.HypersnapsdkFlutterPlugin$2
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.HypersnapsdkFlutterPlugin$3
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.HypersnapsdkFlutterPlugin$3$1
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.HypersnapsdkFlutterPlugin$4
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.HypersnapsdkFlutterPlugin$4$1
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.HypersnapsdkFlutterPlugin$5
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.HypersnapsdkFlutterPlugin$5$1
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.HypersnapsdkFlutterPlugin$5$2
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.HypersnapsdkFlutterPlugin$6
+ co.hyperverge.hypersnapsdk.hypersnapsdk_flutter.HypersnapsdkFlutterPlugin$6$1

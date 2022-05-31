@@ -1,0 +1,23 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/rahulpanzade/Developer/flutter/.pub-cache/git/flutter-contacts-plugin-b5e828e500dca871884a3c3d8d8ac723f0be217a/android/src/main/AndroidManifest.xml:1:1-4:12
+INJECTED from /Users/rahulpanzade/Developer/flutter/.pub-cache/git/flutter-contacts-plugin-b5e828e500dca871884a3c3d8d8ac723f0be217a/android/src/main/AndroidManifest.xml:1:1-4:12
+INJECTED from /Users/rahulpanzade/Developer/flutter/.pub-cache/git/flutter-contacts-plugin-b5e828e500dca871884a3c3d8d8ac723f0be217a/android/src/main/AndroidManifest.xml:1:1-4:12
+	package
+		ADDED from /Users/rahulpanzade/Developer/flutter/.pub-cache/git/flutter-contacts-plugin-b5e828e500dca871884a3c3d8d8ac723f0be217a/android/src/main/AndroidManifest.xml:2:3-33
+		INJECTED from /Users/rahulpanzade/Developer/flutter/.pub-cache/git/flutter-contacts-plugin-b5e828e500dca871884a3c3d8d8ac723f0be217a/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/rahulpanzade/Developer/flutter/.pub-cache/git/flutter-contacts-plugin-b5e828e500dca871884a3c3d8d8ac723f0be217a/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/rahulpanzade/Developer/flutter/.pub-cache/git/flutter-contacts-plugin-b5e828e500dca871884a3c3d8d8ac723f0be217a/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/rahulpanzade/Developer/flutter/.pub-cache/git/flutter-contacts-plugin-b5e828e500dca871884a3c3d8d8ac723f0be217a/android/src/main/AndroidManifest.xml:3:5-75
+	android:name
+		ADDED from /Users/rahulpanzade/Developer/flutter/.pub-cache/git/flutter-contacts-plugin-b5e828e500dca871884a3c3d8d8ac723f0be217a/android/src/main/AndroidManifest.xml:3:22-72
+uses-sdk
+INJECTED from /Users/rahulpanzade/Developer/flutter/.pub-cache/git/flutter-contacts-plugin-b5e828e500dca871884a3c3d8d8ac723f0be217a/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/rahulpanzade/Developer/flutter/.pub-cache/git/flutter-contacts-plugin-b5e828e500dca871884a3c3d8d8ac723f0be217a/android/src/main/AndroidManifest.xml
+INJECTED from /Users/rahulpanzade/Developer/flutter/.pub-cache/git/flutter-contacts-plugin-b5e828e500dca871884a3c3d8d8ac723f0be217a/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/rahulpanzade/Developer/flutter/.pub-cache/git/flutter-contacts-plugin-b5e828e500dca871884a3c3d8d8ac723f0be217a/android/src/main/AndroidManifest.xml
+		ADDED from /Users/rahulpanzade/Developer/flutter/.pub-cache/git/flutter-contacts-plugin-b5e828e500dca871884a3c3d8d8ac723f0be217a/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/rahulpanzade/Developer/flutter/.pub-cache/git/flutter-contacts-plugin-b5e828e500dca871884a3c3d8d8ac723f0be217a/android/src/main/AndroidManifest.xml
