@@ -4,17 +4,7 @@
             "outputFile": "/Users/rahulpanzade/Documents/Flutter/flutter-to-flutter-demo/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "44",
-                        "endOffsets": "95"
-                    }
-                },
-                {
-                    "source": "/Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/8e86e615f21ac3758e97e94e18045107/core-1.8.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "100",
                         "endColumns": "65",
                         "endOffsets": "161"
+                    }
+                },
+                {
+                    "source": "/Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "44",
+                        "endOffsets": "95"
                     }
                 },
                 {

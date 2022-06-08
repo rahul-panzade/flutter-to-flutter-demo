@@ -38,6 +38,23 @@
                     }
                 },
                 {
+                    "source": "/Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/8e86e615f21ac3758e97e94e18045107/core-1.8.0/res/values-es-rUS/values-es-rUS.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "113",
+                        "startColumns": "4",
+                        "startOffsets": "10485",
+                        "endColumns": "100",
+                        "endOffsets": "10581"
+                    }
+                },
+                {
                     "source": "/Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/65c8b9154009d1931a3db50d7627d9e4/jetified-play-services-basement-18.0.0/res/values-es-rUS/values.xml",
                     "from": {
                         "startLines": "4",
@@ -88,23 +105,6 @@
                         "endLines": "5,33,34,35,36,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104",
                         "endColumns": "12,85,101,127,80,64,94,69,62,92,71,62,73,63,56,117,57,61,56,79,133,88,80,110,80,79,89,66,65,75,81,87,72,76,69,76,88,73,93,101,71,80,103,52,66,92,88,61,63,62,110,96,101,97,82",
                         "endOffsets": "278,3080,3182,3310,3391,5785,5880,5950,6013,6106,6178,6241,6315,6379,6436,6554,6612,6674,6731,6811,6945,7034,7115,7226,7307,7387,7477,7544,7610,7686,7768,7856,7929,8006,8076,8153,8242,8316,8410,8512,8584,8665,8769,8822,8889,8982,9071,9133,9197,9260,9371,9468,9570,9668,9751"
-                    }
-                },
-                {
-                    "source": "/Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/res/values-es-rUS/values-es-rUS.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "113",
-                        "startColumns": "4",
-                        "startOffsets": "10485",
-                        "endColumns": "100",
-                        "endOffsets": "10581"
                     }
                 }
             ]

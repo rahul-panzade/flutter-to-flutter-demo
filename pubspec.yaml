@@ -30,10 +30,10 @@ dependencies:
   flutter:
     sdk: flutter
   kyc2:
-    #    path: /Users/rahulpanzade/Documents/Flutter/flutter-kyc2
+#     path: /Users/rahulpanzade/Documents/Flutter/flutter-kyc2
     git:
       url: https://github.com/angel-one/flutter-kyc2.git
-      ref: 3d4e819bae3e70c3d33a459ab7a9cbe01dd39526
+      ref: mf-keyboard #3d4e819bae3e70c3d33a459ab7a9cbe01dd39526
 
   navigator:
     git:

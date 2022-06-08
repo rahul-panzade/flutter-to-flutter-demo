@@ -49,8 +49,8 @@ MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/rahulpanza
 MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ec2aa9a57c0502f8d02fa92cdaf710bb/jetified-play-services-gass-15.0.1/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/65c8b9154009d1931a3db50d7627d9e4/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/65c8b9154009d1931a3db50d7627d9e4/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
-MERGED from [androidx.core:core:1.6.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.6.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/8e86e615f21ac3758e97e94e18045107/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/8e86e615f21ac3758e97e94e18045107/core-1.8.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/884708a9396f81808c0ac10f4b98ea32/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/884708a9396f81808c0ac10f4b98ea32/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/c769b1a3abedcf995c2267250ea92e24/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
@@ -66,7 +66,7 @@ MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/rahulpanzade/.gra
 MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/21f7e83919889ba912a64c1d377679be/jetified-play-services-ads-base-15.0.1/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/21f7e83919889ba912a64c1d377679be/jetified-play-services-ads-base-15.0.1/AndroidManifest.xml:22:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.6.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.8.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/8e86e615f21ac3758e97e94e18045107/core-1.8.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from [co.hyperverge:hypersnapsdk:3.6.29] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/78a16c81afb0055061a9f285b3185f9f/jetified-hypersnapsdk-3.6.29/AndroidManifest.xml:21:18-44
 	android:name
@@ -149,9 +149,9 @@ MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rahulpan
 MERGED from [androidx.customview:customview:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/9ccab238727e236e8aff01a0f95cebe4/customview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/f6886f612e9817326f4f408c1489ce06/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/9344e812e9436e7dbce7c9baf11f7fbd/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.6.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.core:core:1.8.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/8e86e615f21ac3758e97e94e18045107/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6294b03a0121a0db938b4b46adeeab06/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c6575c923e75933616af1a602db32e0/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ba75471a221dffe13eac8188761db78a/exifinterface-1.3.2/AndroidManifest.xml:17:1-24:12
 MERGED from [co.hyperverge:hvcamera-sdk:3.0.7] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/4433c29350ba448576905c4b16290e01/jetified-hvcamera-sdk-3.0.7/AndroidManifest.xml:2:1-13:12
 MERGED from [com.rudderstack.android.sdk:core-mpx:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/9c61c6319b8c1e004758342e68947e30/jetified-core-mpx-1.1.0/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/8578375fbf5df5bbe65cca21a6cd6acf/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
@@ -346,12 +346,12 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rahulp
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/f6886f612e9817326f4f408c1489ce06/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/9344e812e9436e7dbce7c9baf11f7fbd/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/9344e812e9436e7dbce7c9baf11f7fbd/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.6.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.6.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/8e86e615f21ac3758e97e94e18045107/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/8e86e615f21ac3758e97e94e18045107/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6294b03a0121a0db938b4b46adeeab06/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6294b03a0121a0db938b4b46adeeab06/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c6575c923e75933616af1a602db32e0/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/6c6575c923e75933616af1a602db32e0/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ba75471a221dffe13eac8188761db78a/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/ba75471a221dffe13eac8188761db78a/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
 MERGED from [co.hyperverge:hvcamera-sdk:3.0.7] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/4433c29350ba448576905c4b16290e01/jetified-hvcamera-sdk-3.0.7/AndroidManifest.xml:7:5-9:41
 MERGED from [co.hyperverge:hvcamera-sdk:3.0.7] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/4433c29350ba448576905c4b16290e01/jetified-hvcamera-sdk-3.0.7/AndroidManifest.xml:7:5-9:41
 MERGED from [com.rudderstack.android.sdk:core-mpx:1.1.0] /Users/rahulpanzade/.gradle/caches/transforms-2/files-2.1/9c61c6319b8c1e004758342e68947e30/jetified-core-mpx-1.1.0/AndroidManifest.xml:7:5-9:41

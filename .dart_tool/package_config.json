@@ -3,7 +3,7 @@
   "packages": [
     {
       "name": "analytic_plugin",
-      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/git/flutter-analytics-plugin-2a9983daea528c3d2a7b8413bcaa31ab161668fc/",
+      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/git/flutter-analytics-plugin-660cb750221ba21567205793488ef97f6a18befb/",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -75,37 +75,37 @@
     },
     {
       "name": "connectivity_plus",
-      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_plus-2.3.0",
+      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_plus-2.3.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "connectivity_plus_linux",
-      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_plus_linux-1.3.0",
+      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_plus_linux-1.3.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "connectivity_plus_macos",
-      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_plus_macos-1.2.2",
+      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_plus_macos-1.2.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "connectivity_plus_platform_interface",
-      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_plus_platform_interface-1.2.0",
+      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_plus_platform_interface-1.2.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "connectivity_plus_web",
-      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_plus_web-1.2.0",
+      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_plus_web-1.2.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "connectivity_plus_windows",
-      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_plus_windows-1.2.0",
+      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_plus_windows-1.2.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -129,7 +129,7 @@
     },
     {
       "name": "cupertino_icons",
-      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.4",
+      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.5",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -195,7 +195,7 @@
     },
     {
       "name": "file_picker",
-      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/file_picker-4.6.0",
+      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/file_picker-4.6.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -297,7 +297,7 @@
     },
     {
       "name": "image_picker_android",
-      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker_android-0.8.4+13",
+      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker_android-0.8.5",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
@@ -339,7 +339,7 @@
     },
     {
       "name": "kyc2",
-      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/git/flutter-kyc2-3d4e819bae3e70c3d33a459ab7a9cbe01dd39526/",
+      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/git/flutter-kyc2-a821065b978e691ad92997830b4aaf98f169ab76/",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -405,7 +405,7 @@
     },
     {
       "name": "path_provider",
-      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.10",
+      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.11",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
@@ -423,7 +423,7 @@
     },
     {
       "name": "path_provider_linux",
-      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-2.1.6",
+      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-2.1.7",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -615,7 +615,7 @@
     },
     {
       "name": "url_launcher",
-      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-6.1.2",
+      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-6.1.3",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
@@ -687,13 +687,13 @@
     },
     {
       "name": "webview_flutter_android",
-      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/webview_flutter_android-2.8.9",
+      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/webview_flutter_android-2.8.11",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "webview_flutter_platform_interface",
-      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/webview_flutter_platform_interface-1.9.0",
+      "rootUri": "file:///Users/rahulpanzade/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/webview_flutter_platform_interface-1.9.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -728,7 +728,7 @@
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2022-05-31T04:09:29.045595Z",
+  "generated": "2022-06-08T17:04:53.967055Z",
   "generator": "pub",
   "generatorVersion": "2.16.1"
 }

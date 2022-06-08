@@ -75,7 +75,7 @@
               "placeholder": "Enter your full name",
               "title": "Full Name",
               "isTextInputRestrictionBasedOnRegex": "[a-zA-Z ]+$",
-              "charLimit": 70
+              "charLimit": 100
             },
             "style": {
               "padding": {
@@ -362,7 +362,7 @@
               "title": "CLICK A PICTURE",
               "native_analytic_types": ["firebase","clevertap"],
               "native_analytic_event_name": "Upload_PAN_Click",
-              "native_analytic_event_action": "{{Click a Picture}}"
+              "native_analytic_event_action": "Click a Picture"
             },
             "style": {
               "padding": {
@@ -425,7 +425,7 @@
               "title": "Upload a file or Add details manually",
               "native_analytic_types": ["firebase","clevertap"],
               "native_analytic_event_name": "Upload_PAN_Click",
-              "native_analytic_event_action": "{{Upload Manually}}"
+              "native_analytic_event_action": "Upload Manually"
             },
             "style": {
               "padding": {
@@ -936,6 +936,7 @@
             "id": "panFatherName",
             "params": {
               "readOnly": true,
+              "charLimit": 100,
               "keyboardType": "text",
               "placeholder": "Father's Name",
               "title": "Father's Name"
@@ -1091,6 +1092,16 @@
                 "bottom": 0
               }
             },
+            "validation": {
+              "DT001" : "Date is mandatory. Don't leave it blank.",
+              "DT002" : "Month is mandatory. Don't leave it blank.",
+              "DT003" : "Year is mandatory. Don't leave it blank.",
+              "DT004" : "Kindly enter a valid date between 1 & 31",
+              "DT005" : "Kindly enter a valid month between 1 & 12",
+              "DT006" : "Kindly enter a valid year",
+              "DT007": "You must be at least 18 years of age to open an account online.",
+              "DT008": "Currently, we don't accept applications of people aged over 99 years."
+            },
             "width": 1
           }
         ],
@@ -1115,6 +1126,7 @@
             "component": "TextField",
             "id": "panFatherName",
             "params": {
+              "charLimit": 100,
               "keyboardType": "text",
               "placeholder": "Enter Father's Name",
               "title": "Father's Name",
@@ -2568,6 +2580,12 @@
             "style": {
               "padding": {
                 "bottom": 16
+              }
+            },
+            "validation": {
+              "minLength": {
+                "message": "Please enter at least 3 characters.",
+                "value": 3
               }
             },
             "width": 1
@@ -4092,8 +4110,8 @@
       "analytic_event_metadata":"",
       "requireAppBar": "false",
       "native_analytic_types": ["firebase", "clevertap", "appsflyer"],
-      "native_analytic_event_name": "KYC_Received_Documents_Screen_Load",
-      "native_analytic_event_action": "kyc_received_documents_screen_load",
+      "native_analytic_event_name": "Confirmation",
+      "native_analytic_event_action": "confirmation_screen_load",
       "layout":[
         [
           {
@@ -4146,6 +4164,23 @@
               }
             },
             "width":1
+          }
+        ],
+        [
+          {
+            "component":"NPS",
+            "id":"NPSScore",
+            "params":{
+              "title": "How was your onboarding experience? ",
+              "minTitle": "Not happy",
+              "maxTitle": "Very happy"
+            },
+            "style": {
+              "padding": {
+                "bottom": 6
+              }
+            },
+            "width":10
           }
         ],
         [
@@ -4515,7 +4550,7 @@
               "title": "CLICK A PICTURE",
               "native_analytic_types": ["firebase","clevertap"],
               "native_analytic_event_name": "KYC_Upload_Cancelled_Cheque_CTA_Click",
-              "native_analytic_event_action": "{{Click a Picture}}"
+              "native_analytic_event_action": "Click a Picture"
             },
             "style": {
               "padding": {
@@ -4555,10 +4590,10 @@
                       "manualDetailsButtonTitle": "Upload later",
                       "native_analytic_types": ["firebase","clevertap"],
                       "native_analytic_event_name": "KYC_Upload_Cancel_Cheque_Click",
-                      "native_analytic_event_action": "{{Submit}}",
+                      "native_analytic_event_action": "Submit",
                       "native_analytic_types_optional": ["firebase","clevertap"],
                       "native_analytic_event_name_optional": "KYC_Upload_Cancel_Cheque_Click",
-                      "native_analytic_event_action_optional": "{{Upload later}}"
+                      "native_analytic_event_action_optional": "Upload later"
                     },
                     "style": {
                       "padding": {
@@ -4580,7 +4615,7 @@
               "title": "Upload from gallery or Upload later",
               "native_analytic_types": ["firebase","clevertap"],
               "native_analytic_event_name": "KYC_Upload_Cancelled_Cheque_CTA_Click",
-              "native_analytic_event_action": "{{Upload from Gallery or Upload Later}}"
+              "native_analytic_event_action": "Upload from Gallery or Upload Later"
             },
             "style": {
               "padding": {
@@ -5683,7 +5718,7 @@
     "personal": {
       "flow": "personal",
       "analytic_id":"s-genderandmaritalstatus",
-      "analytic_event_metadata":"Gender:gender,marital status:maritalStatus",
+      "analytic_event_metadata":"Gender:gender,marital status:maritalStatus,settlement frequency:settlementFrequency",
       "native_analytic_types": ["firebase", "clevertap", "appsflyer"],
       "native_analytic_event_name": "KYC_Gender_Marital_Status_Screen_Load",
       "native_analytic_event_action": "kyc_gender_marital_status_screen_load",
@@ -5732,7 +5767,7 @@
             "style": {
               "padding": {
                 "bottom": 16,
-                "top": 50
+                "top": 30
               }
             },
             "width": 1
@@ -5816,11 +5851,56 @@
         ],
         [
           {
+            "component": "Label",
+            "id": "fund_security_title",
+            "params": {
+              "themeStyle": "headline1",
+              "title": "Choose your funds and securities settlement preferences"
+            },
+            "style": {
+              "padding": {
+                "top": 40
+              }
+            },
+            "width": 1
+          }
+        ],
+
+        [
+          {
+            "component": "SelectPersonalOptions",
+            "id": "settlementFrequency",
+            "params": {
+              "dynamicList": [
+                {
+                  "title": "Monthly",
+                  "value": "MONTHLY"
+                },
+                {
+                  "title": "Quarterly",
+                  "value": "QUARTERLY"
+                }
+              ],
+              "themeStyle": "bodyText1"
+            },
+            "style": {
+              "padding": {
+                "top": 30
+              }
+            },
+            "width": 1
+          }
+        ],
+
+
+        [
+          {
             "action": {
               "api": "/v1/kyc/personal",
               "bodyParameters" : {
                 "gender": "gender",
-                "maritalStatus": "maritalStatus"
+                "maritalStatus": "maritalStatus",
+                "settlementFrequency": "settlementFrequency"
               },
               "method": "POST",
               "type": "navigateWithAPI"
@@ -5835,7 +5915,7 @@
             "style": {
               "padding": {
                 "bottom": 10,
-                "top": 100
+                "top": 50
               }
             },
             "width": 1
@@ -5847,7 +5927,8 @@
               "api": "/v1/kyc/personal",
               "bodyParameters" : {
                 "gender": "gender",
-                "maritalStatus": "maritalStatus"
+                "maritalStatus": "maritalStatus",
+                "settlementFrequency": "settlementFrequency"
               },
               "method": "POST",
               "type": "navigateWithAPI"
@@ -7129,6 +7210,7 @@
               "keyboardType": "text",
               "placeholder": "Father's Name",
               "title": "Father's Name",
+              "charLimit": 100,
               "readOnly": true
             },
             "style": {
@@ -8716,7 +8798,7 @@
             "title": "TRY ANOTHER ACCOUNT NUMBER",
             "native_analytic_types": ["firebase","clevertap"],
             "native_analytic_event_name": "Account_Number_Invalid_Click",
-            "native_analytic_event_action": "{{Try Another Account Number}}"
+            "native_analytic_event_action": "Try Another Account Number"
           },
           "style": {
             "padding": {
@@ -8739,7 +8821,7 @@
             "title": "Upload cancel cheque",
             "native_analytic_types": ["firebase","clevertap"],
             "native_analytic_event_name": "Account_Number_Invalid_Click",
-            "native_analytic_event_action": "{{Upload Cancel Cheque}}"
+            "native_analytic_event_action": "Upload Cancel Cheque"
           },
           "style": {
             "textAlign": "center"
@@ -9287,6 +9369,7 @@
       "occupationOthersSpecification":"",
       "gender":"MALE",
       "maritalStatus":"UNMARRIED",
+      "settlementFrequency": "QUARTERLY",
       "aadhaarFrontUrl":"https://kyc2-services-dev20211112091553749400000001.s3.ap-south-1.amazonaws.com/SPAI2824357501/aadhaar/aadhaarFront.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2U6DQALAWQ7NYUVA%2F20220128%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20220128T095617Z&X-Amz-Expires=6000&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=5203af52d8aad7bd79b5b249c9d084efe521b53195a9414542e52aef6b8265ac",
       "aadhaarBackUrl":"https://kyc2-services-dev20211112091553749400000001.s3.ap-south-1.amazonaws.com/SPAI2824357501/aadhaar/aadhaarFront.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2U6DQALAWQ7NYUVA%2F20220128%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20220128T095617Z&X-Amz-Expires=6000&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=5203af52d8aad7bd79b5b249c9d084efe521b53195a9414542e52aef6b8265ac"
     }
