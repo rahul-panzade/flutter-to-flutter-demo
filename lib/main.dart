@@ -9,10 +9,9 @@ void main() {
   runApp(MultiProvider(providers: [
     ChangeNotifierProvider<FormData>(
       create: (context) => FormData(),
-      child: const KycSdkScreen(),
+      child: const LoadKYCUsingROUTE(),
     ),
-  ], child: const
-  MyApp()));
+  ], child: const MyApp()));
 }
 
 class MyApp extends StatelessWidget {
